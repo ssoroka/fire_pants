@@ -1,0 +1,38 @@
+Legend:
+  v1 feature: -  (version 1 is single blog support)
+  v2 feature: *  (version 2 is support for hosting any number of blogs)
+  done:       x
+  wip:        w
+
+AUTHENTICATION
+  - create an account and login. 
+  * hosts multiple blogs by default.
+  * subdomain support
+
+ADMIN SETTINGS
+  - gist account credentials
+  - disqus config info
+  - has ability to customize urls with a format
+  - output posts as html for caching, backup, and exporting.
+
+AUTHORING
+  - live preview pane
+  - insert code button
+  - select and "gist" this button
+
+POSTS
+  - urls in posts become images, videos, and gist iframes.
+  - support markdown
+  - support smartypants?
+  - can provide alternate urls to support conversion from your shitty legacy blog app.
+
+PAGES
+  - same stuff posts supports, just formatted differently.
+  - has control over custom urls
+
+COMMENTS
+  - disqus
+  
+LAYOUTS
+  - default
+  - moustache template-able
