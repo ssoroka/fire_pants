@@ -36,3 +36,7 @@ COMMENTS
 LAYOUTS
   - default
   - moustache template-able
+  
+DEPLOY
+  - built-in support for deploying directly to aws-ec2
+  - moonshine for system config and deployment
