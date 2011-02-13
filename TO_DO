@@ -1,15 +1,17 @@
 Legend:
-  v1 feature: -  (version 1 is single blog support)
-  v2 feature: *  (version 2 is support for hosting any number of blogs)
-  done:       x # copy it in to README under feature list.
-  wip:        w
+  v1 feature:  -  (version 1 is single blog support)
+  v2 feature:  *  (version 2 is support for hosting any number of blogs)
+  done:        x # copy it in to README under feature list.
+  wip:         w
+  considering: ?
 
 API
-  - built in json support
+  - built in json, rss support
   
 AUTHENTICATION
   w create an account and login.
-  - sign ups need to be activated by the admin
+  x sign ups are disabled after first user created
+  ? sign ups need to be activated by the admin
   * hosts multiple blogs by default.
   * subdomain support
 
@@ -20,6 +22,8 @@ ADMIN SETTINGS
   - output posts as html for caching, backup, and exporting.
   - twitter account for post notification
   - email addy
+  - google integration
+  - show my api token
 
 AUTHORING
   - live preview pane
@@ -29,7 +33,7 @@ AUTHORING
 POSTS
   - urls in posts become images, videos, and gist iframes.
   - support markdown
-  - support smartypants?
+  ? support smartypants
   - can provide alternate urls to support conversion from your shitty legacy blog app.
 
 PAGES
