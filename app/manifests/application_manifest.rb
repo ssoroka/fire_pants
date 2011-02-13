@@ -20,12 +20,7 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   # The default_stack recipe install Rails, Apache, Passenger, the database from
   # database.yml, Postfix, Cron, logrotate and NTP. See lib/moonshine/manifest/rails.rb
   # for details. To customize, remove this recipe and specify the components you want.
-  # recipe :default_stack
-  recipe :apache_server
-  recipe :passenger_gem, :passenger_configure_gem_path, :passenger_apache_module, :passenger_site
-  
-  recipe :rails_rake_environment, :rails_gems, :rails_directories, :rails_bootstrap, :rails_migrations, :rails_logrotate
-  recipe :ntp, :time_zone, :postfix, :cron_packages, :motd, :security_updates, :apt_sources
+  recipe :default_stack
 
   # Add your application's custom requirements here
   def application_packages

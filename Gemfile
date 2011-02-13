@@ -2,11 +2,9 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.4'
 
-# amazon 
-# gem 'aws-s3', :require => 'aws/s3'
-
-# AWS::SES is a Ruby library for Amazon’s Simple Email Service’s REST API
-# gem 'aws-ses', :require => 'aws/ses'
+group :production do
+  gem 'mysql'
+end
 
 group :development, :test do
   gem 'sqlite3'
@@ -24,6 +22,7 @@ group :development, :test do
   # gem 'delorean' # lets you travel in time with Ruby by mocking Time.now
   # gem 'database_cleaner'
   # gem 'spork'
+  gem 'heroku' # optional
 end
 
 
