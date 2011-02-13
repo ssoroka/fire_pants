@@ -4,6 +4,9 @@ Legend:
   done:       x # copy it in to README under feature list.
   wip:        w
 
+API
+  - built in json support
+  
 AUTHENTICATION
   - create an account and login. 
   * hosts multiple blogs by default.
@@ -38,10 +41,6 @@ COMMENTS
 LAYOUTS
   - default
   - moustache template-able
-  
-DEPLOY
-  - built-in support for deploying directly to aws-ec2
-  - moonshine for system config and deployment
   
 IMPORTING
   - some mechanism to import posts from other systems; the basis to write your own custom importer
