@@ -10,6 +10,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem "rspec-rails", "~> 2.4"
+  gem 'factory_girl'
   gem 'autotest'
   gem 'autotest-fsevent'
   gem 'autotest-growl'
