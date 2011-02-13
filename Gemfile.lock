@@ -57,6 +57,7 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    factory_girl (1.3.3)
     ffi (0.6.3)
       rake (>= 0.8.7)
     heroku (1.17.10)
@@ -141,6 +142,7 @@ DEPENDENCIES
   autotest-growl
   capybara
   devise
+  factory_girl
   heroku
   mysql
   rails (= 3.0.4)

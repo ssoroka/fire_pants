@@ -8,7 +8,8 @@ API
   - built in json support
   
 AUTHENTICATION
-  - create an account and login. 
+  w create an account and login.
+  - sign ups need to be activated by the admin
   * hosts multiple blogs by default.
   * subdomain support
 
