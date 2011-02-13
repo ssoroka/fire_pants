@@ -1,3 +1,10 @@
 == a rack-mountable rails 3 blog app for ruby bloggers *that doesn't suck*
 
 See TO_DO for features to be implemented
+
+= Setup
+
+Sign up to AWS ec2, get a key, set up a new instance
+connect to the instance
+generate a key to for deploy with github
+  $ ssh-keygen -t rsa

@@ -1,7 +1,7 @@
 Legend:
   v1 feature: -  (version 1 is single blog support)
   v2 feature: *  (version 2 is support for hosting any number of blogs)
-  done:       x
+  done:       x # copy it in to README under feature list.
   wip:        w
 
 AUTHENTICATION
@@ -14,6 +14,8 @@ ADMIN SETTINGS
   - disqus config info
   - has ability to customize urls with a format
   - output posts as html for caching, backup, and exporting.
+  - twitter account for post notification
+  - email addy
 
 AUTHORING
   - live preview pane
@@ -40,3 +42,12 @@ LAYOUTS
 DEPLOY
   - built-in support for deploying directly to aws-ec2
   - moonshine for system config and deployment
+  
+IMPORTING
+  - some mechanism to import posts from other systems; the basis to write your own custom importer
+  
+POST NOTIFICATION
+  - via email subscriptions
+  - via twitter
+  * via facebook
+  * via linked-in
