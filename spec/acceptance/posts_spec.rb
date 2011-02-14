@@ -20,7 +20,7 @@ feature "Posts as a user" do
   
   scenario "I should be able to create a new post" do
     visit '/'
-    click_link('Create new post')
-    page.should have_selector('form[target=/posts]')
+    click_link('Create New Post')
+    page.should have_selector('form[target="/posts"]')
   end
 end
