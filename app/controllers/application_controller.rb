@@ -4,10 +4,9 @@ class ApplicationController < ActionController::Base
   before_filter :disable_sign_up_if_existing_user
   
   private
-  
     def disable_sign_up_if_existing_user
       if params[:controller] == 'devise/registrations' && params[:action] =~ /^(new|create)$/
-        not_found
+        not_found if User.count > 0
       end 
     end
     
