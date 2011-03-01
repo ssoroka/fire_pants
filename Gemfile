@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.4'
 gem 'devise'
+gem 'less'
+gem 'mustache_wax', :path => '/Users/steven/Projects/opensource/mustache_wax'
 
 group :production do
   gem 'mysql'

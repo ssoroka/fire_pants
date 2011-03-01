@@ -15,12 +15,12 @@ end
 feature "Posts as a user" do
   background do
     user = Factory(:user, :password => 'frankenstein')
-    login_as(user.email, 'frankenstein')
+    login_as(user)
   end
   
   scenario "I should be able to create a new post" do
     visit '/'
     click_link('Create New Post')
-    page.should have_selector('form[target="/posts"]')
+    page.should have_selector('form[action="/posts"]')
   end
 end
